@@ -1,0 +1,4 @@
+1. INSERT INTO karty_wedkarskie VALUES(" ", "Grzegorz", "Niemczyk", "Gdynia, Batorego14/5", "2018-02-23", "0");
+2.SELECT imie, nazwisko FROM karty_wedkarskie WHERE punkty>20;
+3. SELECT akwen FROM lowisko WHERE id = 1;
+4.CREATE USER 'ANNA' IDENTIFIED BY 'anna123';

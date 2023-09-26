@@ -1,0 +1,4 @@
+1. SELECT nazwa FROM `towary` WHERE promocja=1; 
+2. SELECT cena FROM `towary` WHERE nazwa="cienkopis"; 
+3. SELECT dostawcy.nazwa, count(towary.idDostawcy) as 'ilosc' from dostawcy, towary WHERE towary.idDostawcy=dostawcy.id group by towary.idDostawcy;
+4. ALTER TABLE `dostawcy` ADD `e_mail` TEXT NOT NULL AFTER `adres`; 
