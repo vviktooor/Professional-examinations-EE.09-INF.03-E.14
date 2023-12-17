@@ -1,2 +1,0 @@
-1.
-2. SELECT id, nazwa, opis, zdjecie FROM produkty WHERE Rodzaje_id = 12;

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmy</title>
+    <link rel="stylesheet" type="text/css" href="styl1.css">
+</head>
+<body>
+    <div class="lewy">
+        <h3>Dostępne gatunki filmu</h3>
+
+        <ol>
+            <li>Sci-Fi</li>
+            <li>animacja</li>
+            <li>dramat</li>
+            <li>horror</li>
+            <li>komedia</li>
+        </ol>
+
+        <p><a href="kadr.jpg">Pobierz obraz</a></p>
+        <p><a href="repertuar-kin.pl" target="_blank">Sprawdź repertuar kin</a></p>
+    </div>
+
+    <section id="prawe">
+
+        <div class="prawy1">
+            <h1>FILMOTEKA</h1>
+        </div>
+
+        <div class="prawy2">
+            <form action="dodaj.php" method="post">
+                Tytuł: 
+                <input name="tytul" type="text">
+                </br> 
+                Gatunek filmu:
+                <input name="gatunki_id" type="number">
+                </br> 
+                Rok produkcji:
+                <input name="rok" type="number">
+                </br> 
+                Ocena:
+                <input name="ocena" type="number">
+                </br> 
+                <input type="reset" value="CZYŚĆ">
+                <input type="submit" name="DODAJ" value="DODAJ">
+            </form>
+        </div>
+
+        <div class="prawy3">
+            <img src="kadr.jpg" alt="zdjęcia filmowe">
+        </div>
+
+    </section>
+
+    <div class="stopka">
+        <p>Autor strony: vviktooor</p>
+    </div>
+
+</body>
+</html>

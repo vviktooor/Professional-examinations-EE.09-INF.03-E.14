@@ -1,0 +1,4 @@
+SELECT `imie`, `nazwisko`, `punkty` FROM `klienci` ORDER BY `punkty` DESC;
+SELECT `nazwa`, COUNT(*) FROM `typy` INNER JOIN `klienci` ON typy.id=klienci.Typy_id GROUP BY typy.nazwa; 
+SELECT `zdjecie`, `imie`, `opinia` FROM `klienci` INNER JOIN `opinie` ON klienci.id=opinie.Klienci_id WHERE klienci.Typy_id IN(2,3);
+ALTER TABLE `klienci` ADD `adres` TEXT(50);
