@@ -1,4 +1,0 @@
-1. SELECT kierunek, czas FROM `przyloty` WHERE status_lotu="";
-2. SELECT kierunek, dzien FROM odloty WHERE samoloty_id=1 OR samoloty_id=3;
-3. SELECT nr_rejsu, kierunek FROM `przyloty` WHERE nr_rejsu LIKE"LX%";
-4. UPDATE `samoloty` SET `linie` = 'SWISS2' WHERE `samoloty`.`id` = 3;

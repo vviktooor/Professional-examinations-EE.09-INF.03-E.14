@@ -1,0 +1,54 @@
+body {
+	font-family: Tahoma;
+}
+.banner {
+	float: both;
+	background-color: Tomato;
+	color: white;
+	padding: 10px;
+}
+.main {
+	clear: both;
+	background-color: Seashell;
+	height: 500px;
+	overflow: auto;
+	
+}
+.blok1, .blok2, .blok3, .blok4 {
+	float: left;
+	background-color: Tomato;
+	color: white;
+	width: 25%;
+	height: 160px;
+}
+.opinia {
+	background-color: white;
+	color: dimgray;
+	width: 60%;
+	height: 220px;
+	margin: 40px auto 40px auto;
+	box-shadow: 0px 0px 10px 7px dimgray;
+}
+img {
+	float: left;
+	margin: 10px;
+	border-radius:10px;
+	width: 150px;
+}
+cite {
+	padding: 10px;
+	font-size: 150%;
+	font-style: oblique;
+}
+h1, h2 {
+	text-align: center;
+}
+h4 {
+	text-align: right;
+	margin-right: 40px;
+	font-size: 150%;
+	font-style: oblique;
+}
+a {
+	color: white;
+}
